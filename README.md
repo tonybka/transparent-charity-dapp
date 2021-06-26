@@ -11,10 +11,27 @@ Bring transparency and accountability to charitable donations
 !!! 📝 **Disclaimer**:
 We don't make any judgment or conclusion to the use cases above, just taking them as the problems that need to be solved
 
----
 ## Technology
 ### Ethereum Blockchain
 - **Language:** Solidity
 - **Build & development tool:** Hard hat
 - **Test:** EthereJS/Waffle
 - **Security & Audit:** Slither & [OpenZeppelin Defender](https://openzeppelin.com/defender/)
+
+
+#### Smart contracts
+- ERC-20
+- ERC-721 & IPFS
+- Multisig Contracts
+- [Upgradable contracts with Proxy Pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies) & Unstructured Storage 
+
+## Design
+### Entities
+- Donor
+- Ambassadors
+- Supporters
+- Receiver
+### Records
+- Campaign (Donations, Total amounts, Beneficiaries)
+- Donation records (Donor, currency, amount, date)
+- Allocation records (Receiver, currency, amount, date)
