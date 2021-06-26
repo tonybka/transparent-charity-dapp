@@ -23,7 +23,8 @@ We don't make any judgment or conclusion to the use cases above, just taking the
 - ERC-20
 - ERC-721 & IPFS
 - Multisig Contracts
-- [Upgradable contracts with Proxy Pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies) & Unstructured Storage 
+- [Upgradable contracts with Proxy Pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies) & Unstructured Storage
+- Cross-chain donation with oracle: [Band Protocol](https://docs.bandchain.org)
 
 ## Design
 ### Entities
