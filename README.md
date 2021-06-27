@@ -29,8 +29,8 @@ We don't make any judgment or conclusion to the use cases above, just taking the
 ## Design
 ### Entities
 - Donor
-- Ambassadors
-- Supporters
+- Ambassador
+- Volunteer
 - Receiver
 ### Records
 - Campaign (Donations, Total amounts, Beneficiaries)
