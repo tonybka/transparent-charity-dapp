@@ -26,6 +26,9 @@ We don't make any judgment or conclusion to the use cases above, just taking the
 - [Upgradable contracts with Proxy Pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies) & Unstructured Storage
 - Cross-chain donation with oracle: [Band Protocol](https://docs.bandchain.org)
 
+#### External services
+- Free IPFS Pinning service from Pinata: https://pinata.cloud
+
 ## Design
 ### Entities
 - Donor
