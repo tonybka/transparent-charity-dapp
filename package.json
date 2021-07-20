@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile --force",
-    "local-deploy": "npm run clean && npm run compile && npx hardhat deploy --network hardhat --export-all ./deploy-snaphot.json"
+    "local-deploy": "npm run clean && npm run compile && mkdir deployments && npx hardhat deploy --network hardhat --export-all ./deploy-snaphot.json"
   },
   "repository": {
     "type": "git",
