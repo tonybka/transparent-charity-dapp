@@ -1,6 +1,7 @@
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-ethers"; // alias of hardhat-deploy-ethers
 import "hardhat-deploy";
+import "hardhat-gas-reporter";
 import { task } from "hardhat/config";
 
 import { HardhatUserConfig } from "hardhat/types";
@@ -37,6 +38,10 @@ const config: HardhatUserConfig = {
     tests: "./test",
     cache: "./cache",
     artifacts: "./artifacts",
+  },
+  gasReporter: {
+    currency: "USD",
+    gasPrice: 200,
   },
 };
 

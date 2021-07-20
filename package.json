@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile --force",
-    "local-deploy": "npm run clean && npm run compile && mkdir deployments && npx hardhat deploy --network hardhat --export-all ./deploy-snaphot.json"
+    "local-deploy": "npm run clean && npm run compile && mkdir -p deployments && npx hardhat deploy --network hardhat --export-all ./deploy-snaphot.json"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "hardhat": "^2.4.1",
     "hardhat-deploy": "^0.8.11",
     "hardhat-deploy-ethers": "^0.3.0-beta.7",
+    "hardhat-gas-reporter": "^1.0.4",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
