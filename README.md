@@ -14,7 +14,7 @@ We don't make any judgment or conclusion to the use cases above, just taking the
 ## Technology
 ### Ethereum Blockchain
 - **Language:** Solidity
-- **Build & development tool:** Hard hat
+- **Build & development tool:** Hardhat
 - **Test:** EthereJS/Waffle
 - **Security & Audit:** Slither & [OpenZeppelin Defender](https://openzeppelin.com/defender/)
 
